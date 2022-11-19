@@ -32,7 +32,7 @@ else
     Console.WriteLine("Максимальное число: " + num3);
 }*/
 
-Console.WriteLine("Input number N");
+/*Console.WriteLine("Input number N");
 int numN= Convert.ToInt32(Console.ReadLine());
 if (numN % 2 == 0)
 {
@@ -41,4 +41,23 @@ if (numN % 2 == 0)
 else
 {
     Console.WriteLine($"{numN} НЕЧЕТНОЕ");
+}*/
+
+Console.WriteLine("Input number N");
+int numN = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+bool not = true;
+Console.WriteLine("Чётные числа от 1 до " + numN);
+while (i <= numN)
+{
+    if (i % 2 != 1)
+    {
+        Console.Write(i + ", ");
+        not = false;
+    }
+    i++;
+}
+if (not)
+{
+    Console.WriteLine("Нет чётных чисел!");
 }
