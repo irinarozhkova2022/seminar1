@@ -1,8 +1,12 @@
-﻿/*Console.WriteLine("Input number 1");
+﻿//ZADACH2//
+
+/*Console.WriteLine("Input number 1");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input number 2");
 int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(num1 > num2 ? "Первое число больше второго" : "Второе число больше первого");*/
+
+//ZADACH4//
 
 /*Console.WriteLine("Input number 1");
 int num1 = Convert.ToInt32(Console.ReadLine());
@@ -32,6 +36,8 @@ else
     Console.WriteLine("Максимальное число: " + num3);
 }*/
 
+//ZADACH6//
+
 /*Console.WriteLine("Input number N");
 int numN= Convert.ToInt32(Console.ReadLine());
 if (numN % 2 == 0)
@@ -43,7 +49,9 @@ else
     Console.WriteLine($"{numN} НЕЧЕТНОЕ");
 }*/
 
-Console.WriteLine("Input number N");
+//ZADACH8//
+
+/*Console.WriteLine("Input number N");
 int numN = Convert.ToInt32(Console.ReadLine());
 int i = 1;
 bool not = true;
@@ -60,4 +68,4 @@ while (i <= numN)
 if (not)
 {
     Console.WriteLine("Нет чётных чисел!");
-}
+}*/
