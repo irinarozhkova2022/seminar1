@@ -4,7 +4,7 @@ Console.WriteLine("Input number 2");
 int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(num1 > num2 ? "Первое число больше второго" : "Второе число больше первого");*/
 
-Console.WriteLine("Input number 1");
+/*Console.WriteLine("Input number 1");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input number 2");
 int num2 = Convert.ToInt32(Console.ReadLine());
@@ -30,4 +30,15 @@ else if (num2 > num3)
 else
 {
     Console.WriteLine("Максимальное число: " + num3);
+}*/
+
+Console.WriteLine("Input number N");
+int numN= Convert.ToInt32(Console.ReadLine());
+if (numN % 2 == 0)
+{
+    Console.WriteLine($"{numN} ЧЕТНОЕ");
+}
+else
+{
+    Console.WriteLine($"{numN} НЕЧЕТНОЕ");
 }
